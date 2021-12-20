@@ -1,6 +1,60 @@
-body {
-    margin: 25px;
-    background-color: rgb(240,240,240);
-    font-family: arial, sans-serif;
-    font-size: 14px;
-  }
+.topnav {
+    background-color: #333;
+    overflow: hidden; /*what is this overflow and hidden>*/
+}
+
+.topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none; 
+    font-size: 17px; 
+} 
+
+.pageheader {
+    padding: 30px;
+    text-align: left;
+    background: blue;
+    color: black;
+    font-size: 30px;
+}
+
+h1,h2,h3 {
+    padding: 30px;
+    border:black;
+    margin:auto;
+}
+.projects {
+    padding: 30px;
+    text-align: right;
+    background: lightblue;
+    color: black;
+    font-size: 25px;
+    border:black;
+    margin:auto;
+}
+
+.bottomnav {
+    background-color: lightblue;
+    overflow: hidden; /*what is this overflow and hidden>*/
+}
+
+.bottomnav a {
+    float: center;
+    color: black;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none; 
+    font-size: 17px; 
+} 
+
+
+
+/*h3 {
+    padding: 60px;
+    text-align: left;
+    background: lightblue;
+    color: black;
+    font-size: 30px;
+}*/
