@@ -3,9 +3,17 @@
     overflow: hidden; /*what is this overflow and hidden>*/
 }
 
+.subtitle { /*need fixin*/
+    /* float: right; */
+    color: #f2f2f2;
+    /* text-align: right; */
+    padding: 14px 16px;
+    text-decoration: none; 
+    font-size: 100%;
+}
 
-#aboutme > h2 {
-background-color: red ;
+#aboutme {
+background-color: lightblue ;
 }
 
 
@@ -16,7 +24,7 @@ background-color: red ;
     color: #f2f2f2;
     text-align: right;
     padding: 14px 16px;
-    text-decoration: none; 
+    text-decoration: underline; 
     font-size: 17px; 
 } 
 
@@ -27,19 +35,34 @@ background-color: red ;
     color: black;
     font-size: 30px;
 }
-/*body {
-    background-image: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg");
-    background-color: #cccccc;
-   } /*adjust where it is???? and should I?*/
+body {
+    background-color: lightblue;
+   } 
 
 h1,h2,h3 {
     padding: 30px;
     border:black;
     margin:auto;
 }
-.projects {
+/*.projects {     
+    float: left;
+    width: 50%;
+    padding: 5px;
+   }  issue moving contact me to top*/
+
+#horesion { 
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+#myPortfolio { */
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+.projects { 
     padding: 30px;
-    text-align: right;
+    text-align: left;
     background: lightblue;
     color: black;
     font-size: 25px;
