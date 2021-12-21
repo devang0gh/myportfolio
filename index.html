@@ -6,12 +6,12 @@
     <meta vharset=UTF-8>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stephen's Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
 <body>
 
-    <header class="pageheader"> <!--what is class in relation to id--> 
+    <header class="pageheader"> <!--what is class in relation to id, id=1 class=multiple--> 
 
         <h1>Stephen Delgado</h1>
 
@@ -28,9 +28,16 @@
         
     </header>
 
+
+    <style>
+        div {
+          background-image: url('https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg');
+        }
+    </style>
+
     <section>Image?</section>
 
-    <section class= "aboutme-section" id="aboutme"> <!--not sure if this is right to link anchor, took this out: style="text-align: left;">-->
+    <section class= "aboutme-section" id="aboutme"> <!--not sure if this is right to link anchor, took this out: style="text-align: left;" "div  >--> 
         <h2>About Me</h2>
         <div>
             <p>I am stephen writing a paragraph. kjklsjksjksjksjksjjsksskksjksjksjsjklsjkjsksjklsjksjklsjsjksjksjks</p> <!--how do I float this paragraph to the right of about me took this outstyle="text-align: center;">-->
@@ -42,7 +49,8 @@
         <h2>Work</h2>  <!--how do I get work below class and id for link to hit correctly and out of "projects" formatting? text-align right-->
             <h4>Horesion</h4>
             <img src="https://via.placeholder.com/200" alt="link to Horesion project"/>
-            <a href="https://github.com/devang0gh/Horiseon.git">Visit My Horiseon project!</a>
+            <a href="https://devang0gh.github.io/Horiseon/">Visit My Horiseon project!</a> 
+            
             <h4>Building my Portfolio</h4>
             <img src="https://via.placeholder.com/200" alt="link to Portfolio project"/>
             <a href="https://github.com/devang0gh/myportfolio.git">Visit My Portfolio!</a>
@@ -52,12 +60,9 @@
     <section class="contact-section" id="contactme">
             <h2 class="title">Contact Me</h2>
             <ul>
-              <li id="email">
-              <strong>Email:</strong> <a href="#">devang0gh@gmail.com</a>
-              </li>
-              <li id="github"><strong>GitHub:</strong> <a href="#">https://github.com/devang0gh/myportfolio.git</a></li> <!--which address goes where?-->
-              <li id="portfolio">
-                <strong>Portfolio:</strong> <a href="#">https://github.com/devang0gh/myportfolio.git</a>
+              <li id="email"><strong>Email:</strong> <a href = "mailto: devang0gh@gmail.com">devang0gh@gmail.com</a></li>
+              <li id="github"><strong>GitHub:</strong> <a href= "https://github.com/devang0gh">Github Profile</a></li> 
+              <li id="portfolio"><strong>Portfolio:</strong> <a href="https://github.com/devang0gh/myportfolio.git">My Portfolio</a></li> <!--check to see it links-->
               </li>
             </ul>
           </section>
