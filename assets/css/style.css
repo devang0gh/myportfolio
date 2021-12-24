@@ -1,66 +1,84 @@
- .topnav {
-    background-color: #333;
-    overflow: hidden; /*what is this overflow and hidden>*/
-}
-
-.subtitle { /*need fixin*/
-    /* float: right; */
-    color: #f2f2f2;
-    /* text-align: right; */
-    padding: 14px 16px;
-    text-decoration: none; 
-    font-size: 100%;
-}
-
-#aboutme {
-background-color: lightblue ;
-}
+body {
+    background-color: rgb(190, 188, 188);
+} 
 
 
-
-
-.topnav a {
+.topnav a { /*ok for now*/
     float: right;
     color: #f2f2f2;
     text-align: right;
-    padding: 14px 16px;
+    padding: 20px 20px 20px 20px;
     text-decoration: underline; 
-    font-size: 17px; 
-} 
+    font-size: 25px; 
+}
 
-.pageheader {
-    padding: 30px;
-    /* text-align: left; */
-    background: blue;
+header {  
+    height: 100px;
+    width: 100%;
+    background-color: rgb(114, 114, 114);
+    
+    
+}  
+
+#subtitle {
     color: black;
-    font-size: 30px;
+    text-align: right;
+    padding: 50px 20px; /*better way to center from the top then just adding padding*/
+    font-size: 40px;
 }
-body {
-    background-color: lightblue;
-   } 
+h1 { 
+    height: 100px;
+    width: 100%;
+    background: rgb(82, 82, 83);
+    padding: 20px 20px 20px 20px;
+}
 
-h1,h2,h3 {
-    padding: 30px;
-    border:black;
-    margin:auto;
-}
-/*.projects {     
-    float: left;
-    width: 50%;
-    padding: 5px;
-   }  issue moving contact me to top*/
+/* h2 { 
+    color: white; 
+    text-align: center; 
+    padding: 50px 50px; 
+    text-decoration: underline; 
+    font-size: 50px; 
+}*/
 
-#horesion { 
-    float: left;
+
+
+#aboutme {
+background-color: lightblue ;
+padding: 50px; 
+}
+
+
+
+
+
+
+/* #horesion {  
+    float: center; doesnt work
     width: 50%;
     padding: 5px;
 }
-#myPortfolio { */
-    float: left;
+
+a {
+    color:red;
+}
+
+#myPortfolio { 
+    align: center; doesnt work
     width: 50%;
     padding: 5px;
+} */
+
+
+
+footer {
+    /* font-display: ; */
+    float: center; 
+    text-align: center;  
+    padding: 25px;
 }
-.projects { 
+
+/* .projects {  
     padding: 30px;
     text-align: left;
     background: lightblue;
@@ -70,19 +88,20 @@ h1,h2,h3 {
     margin:auto;
 }
 
-.bottomnav {
+/* .bottomnav {
     background-color: lightblue;
-    overflow: hidden; /*what is this overflow and hidden>*/
-}
+    overflow: hidden; 
+}*/
 
-.bottomnav a {
+
+/* .bottomnav a { 
     float: center;
     color: black;
     text-align: right;
     padding: 14px 16px;
     text-decoration: none; 
     font-size: 17px; 
-} 
+} */
 
 
 
