@@ -5,61 +5,67 @@
 <head>
     <meta vharset=UTF-8>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stephen's Portfolio</title>
+    <title>Stephen's Web Developer Portfolio</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
     <!--there is code here that makes it easier to view on desktop, laptop, mobile, cant find it  if screen is 960, 1060 or what is the standard?-->
 </head>
 
 <body>
-<!--easy way to revert back to previous??-->
+
     <header> 
 
         <nav class="topnav">
             <a href="#aboutme">About Me</a> <!--do this last!!!!how do I reverse the order, # signifies what? #aboutme takes me to "aboutme" how do I get rid of the long gray line on nav bar-->
             <a href="#work">Work</a>
-            <a href="#contactme">Contact Me</a> <!--when clicked contact me doesnt come up to the top (not enough page right?) how to fix or want to? or make more appeling?-->
+            <a href="#contactme">Contact Me</a> <!--A: add height to contact me!!!!when clicked contact me doesnt come up to the top (not enough page right?) how to fix or want to? or make more appeling?-->
         </nav>
         
         <h1>Stephen Delgado
-            <!--image ?? how to wrap around??-->
+            <!--image ?? how to wrap around?? div tag to contain anf float-->
         </h1>  <!--how do i have my name and oicture in same box without affecting "about me section" and wannabe section "subtitle", better way than just padding "about me"?-->
-        
-            <img src="./assets/images/ben-sweet-unsplash.jpg" alt="avatar for Stephen Delgado" width=25% height="=25%"/> <!--did this "w + h" to make the image more appealing, better way?-->
-                 
+    
+    <div>
+            <img class = "avatar" src="./assets/images/ben-sweet-unsplash.jpg" alt="avatar for Stephen Delgado"/> <!--scale in photoshop, picture tag, did this "w + h" to make the image more appealing, better way?-->
+    </div> 
+
     </header>
+
+<br><br>
+
+      
+    
 
 
     <div>
-        <h2 id="subtitle">Wannabe Developer</h2> <!--how do I float this text to the right of picture?-->
+        <h2>About Me</h2>
     </div>
 
-   
-
     <div id="aboutme">  
-        <h2>About Me</h2>   <!-- why red here and 56?-->
                 <p>I am stephen writing a paragraph. kjklsjksjksjksjksjjsksskksjksjksjsjklsjkjsksjklsjksjklsjsjksjksjks</p> <!--how do I float this paragraph to the right of about me took this outstyle="text-align: center;">-->
                 <P>more hhhshhshshshshhshshs</P>
     </div>       
      
+    <h2>Work</h2> 
 
     <div id="work"> 
-        <h2>Work</h2>  
-                <h4 id="horesion">Horesion</h4>
-                        <a href="https://devang0gh.github.io/Horiseon/">  <!--a: hover testing hover??--> <!--WHEN I am presented with the developer's first application 
-                            THEN that application's image should be larger in size than the others, HOW????? and how do I make the "Horesion "on the image"?-->
-                            <img src="./assets/images/laptop-unsplash.jpg" alt="laptop on a desk">  <!--can I "round" the images??-->
+            <div>
+                <h4>Horesion</h4>
+                        <a id="horesion" href="https://devang0gh.github.io/Horiseon/">  
+                            <img class= "round" src="./assets/images/laptop-unsplash.jpg" alt="laptop on a desk"/>  <!--can I "round" the images??-->
                         </a> 
-
+            </div>
+            <div>
                 <h4 id="myPortfolio">myPortfolio</h4> <!-- how do I put horesion and myportfolio on one line (duplicat for 4 projects)-->
                         <a href="https://github.com/devang0gh/myportfolio.git">
-                            <img src="./assets/images/florian-olivo-unsplash.jpg" alt="coding on a screen">
+                            <img class= "round" src="./assets/images/florian-olivo-unsplash.jpg" alt="coding on a screen">
                         </a>
+            </div>
     </div>
     <br><br>    
 
+    <h2>Contact Me</h2>
 
-    <div id="contactme"> <!-- how would i make an image to launch this such as an instagram link?-->
-            <h2>Contact Me</h2>
+    <div id="contactme"> <!-- how would i make an image to launch this such as an instagram link? font awesome or round class option above-->
             <ul>
               <li id="email"><strong>Email:</strong> <a href = "mailto: devang0gh@gmail.com">devang0gh@gmail.com</a></li>
               <li id="github"><strong>GitHub:</strong> <a href= "https://github.com/devang0gh">Github Profile</a></li> 
